@@ -1,0 +1,68 @@
+.wrapper {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(19, 19, 19);
+  padding: 0 5%;
+}
+.wrapper .wrapperContainer {
+  background-color: rgb(32, 35, 40);
+  padding: 50px;
+  border-radius: 30px;
+  width: 1000px;
+}
+.wrapper .wrapperContainer .wrapperTitle {
+  margin-bottom: 40px;
+  font-size: 30px;
+  text-align: center;
+  color: #fff;
+}
+.wrapper .wrapperContainer .inputBox .input {
+  background-color: rgb(47, 52, 60);
+  padding: 15px;
+  border-radius: 25px;
+  margin-bottom: 20px;
+}
+.wrapper .wrapperContainer .inputBox .input .inputFlex {
+  display: flex;
+  align-items: center;
+}
+.wrapper .wrapperContainer .inputBox .input .inputTitle {
+  margin-bottom: 5px;
+}
+.wrapper .wrapperContainer .inputBox .input .inputTitle label {
+  font-size: 15px;
+  color: #fff;
+}
+.wrapper .wrapperContainer .inputBox .input .inputTitle span {
+  color: orangered;
+}
+.wrapper .wrapperContainer .inputBox .input .inputText {
+  width: 100%;
+}
+.wrapper .wrapperContainer .inputBox .input .inputText input {
+  width: 100%;
+  font-size: 15px;
+  color: #fff;
+}
+.wrapper .wrapperContainer .inputBox .input .inputText .inputIcon {
+  font-size: 14px;
+  margin-right: 10px;
+  color: #fff;
+}
+.wrapper .wrapperContainer .inputBox button {
+  margin-top: 40px;
+  background-color: rgb(47, 52, 60);
+  width: 100%;
+  border-radius: 20px;
+  width: 100%;
+  padding: 15px;
+  cursor: pointer;
+  color: #fff;
+}
+.wrapper .wrapperContainer .inputBox button:hover {
+  background-color: rgb(58, 64, 74);
+}/*# sourceMappingURL=connexion.css.map */

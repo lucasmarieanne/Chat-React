@@ -1,0 +1,121 @@
+body ::-webkit-scrollbar {
+  display: none;
+}
+
+.chatHome {
+  background-color: #ffffff;
+  width: 100%;
+  height: 100%;
+}
+.chatHome .chatContainer {
+  background-color: #ffffff;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.chatHome .chatContainer .chatDiscussion {
+  box-shadow: 0 0 50px #909090;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+.chatHome .chatContainer .chatDiscussion .chatDiscussionTest {
+  height: 700px;
+  width: 500px;
+}
+.chatHome .chatContainer .chatDiscussion .discussionContainer {
+  height: 100%;
+  width: 100%;
+  padding: 40px;
+  background-color: rgb(234, 231, 228);
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  overflow-y: auto;
+  position: relative;
+}
+.chatHome .chatContainer .chatDiscussion .discussionContainer .messageContent .scrollBottom {
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+.chatHome .chatContainer .chatDiscussion .discussionContainer .messageContent .messageContainer .messageDetails .detailslBig {
+  width: 100%;
+  color: #dcdcdc;
+  font-size: 15px;
+}
+.chatHome .chatContainer .chatDiscussion .discussionContainer .messageContent .messageContainer .messageDetails .detailslBig .testest {
+  flex-direction: column;
+}
+.chatHome .chatContainer .chatDiscussion .discussionContainer .messageContent .messageContainer .messageDetails .detailslBig .testest .test2 {
+  margin-bottom: 3px;
+  display: flex;
+}
+.chatHome .chatContainer .chatDiscussion .discussionContainer .messageContent .messageContainer .messageDetails .detailslBig .testest .dateSend {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+.chatHome .chatContainer .chatDiscussion .discussionContainer .messageContent .messageContainer .messageDetails .detailslBig .testest .dateSend .time {
+  font-size: 13px;
+}
+.chatHome .chatContainer .chatDiscussion .discussionContainer .messageContent .messageContainer .messageDetails .detailslBig .testest .dateSend .bulletPoint {
+  margin: 0 5px;
+  color: #898785;
+}
+.chatHome .chatContainer .chatDiscussion .discussionContainer .messageContent .messageContainer .messageDetails .detailslBig .testest .dateSend .author {
+  font-weight: 600;
+  font-size: 13px;
+}
+.chatHome .chatContainer .chatDiscussion .discussionContainer .messageContent .messageContainer .messageDetails .detailslBig .testest .chatMessage {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 5px;
+  padding: 11px 15px;
+}
+.chatHome .chatContainer .chatDiscussion .discussionContainer .messageContent .messageContainer .messageDetails .detailslBig .testest .chatMessage .chatMessageUser {
+  font-size: 14px;
+  color: #dcdcdc;
+}
+.chatHome .chatContainer .chatDiscussion .discussionContainer .messageContent .messageContainer .messageDetails .detailslBig .testest #me {
+  background-color: #1e1e1e;
+  justify-content: flex-start;
+}
+.chatHome .chatContainer .chatDiscussion .discussionContainer .messageContent .messageContainer .messageDetails .detailslBig .testest #others {
+  background-color: #717171;
+  text-align: center;
+  justify-content: flex-end;
+}
+.chatHome .chatContainer .chatDiscussion .discussionChat {
+  position: relative;
+  border-top: 1px rgb(189, 186, 184) solid;
+  background-color: rgb(234, 231, 228);
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  padding: 15px;
+}
+.chatHome .chatContainer .chatDiscussion .discussionChat .chatBoxInput {
+  display: flex;
+  align-items: center;
+  background-color: rgb(30, 30, 30);
+  border-radius: 20px;
+}
+.chatHome .chatContainer .chatDiscussion .discussionChat .chatBoxInput input {
+  font-size: 14px;
+  color: #dcdcdc;
+  width: 100%;
+  padding: 0 40px;
+}
+.chatHome .chatContainer .chatDiscussion .discussionChat .chatBoxInput input::-moz-placeholder {
+  color: #a4a4a4;
+}
+.chatHome .chatContainer .chatDiscussion .discussionChat .chatBoxInput input::placeholder {
+  color: #a4a4a4;
+}
+.chatHome .chatContainer .chatDiscussion .discussionChat .chatBoxInput button {
+  padding: 15px 20px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  color: #dcdcdc;
+  font-size: 14px;
+}/*# sourceMappingURL=chathome.css.map */

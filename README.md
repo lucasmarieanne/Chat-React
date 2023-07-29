@@ -1,5 +1,3 @@
-Bien sûr ! Voici le contenu du fichier README.md pour le projet "Chat en React" :
-
 # Chat en React
 
 ## Description du projet
@@ -47,6 +45,7 @@ N'hésitez pas à contacter les auteurs du projet en cas de questions ou de prob
 Pour toute question, suggestion ou retour d'expérience concernant le projet "Chat en React", n'hésitez pas à me contacter :
 
 Auteurs: Lucas Marie-Anne, Louisa
+
 Site Web: http://lucasmarieanne.com/
 
 Je serai ravi d'échanger avec vous et de recevoir vos commentaires sur ce projet. Merci de votre intérêt et de votre contribution !

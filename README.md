@@ -41,11 +41,10 @@ Maintenant que les deux étapes sont terminées, les utilisateurs pourront ouvri
 
 N'hésitez pas à contacter les auteurs du projet en cas de questions ou de problèmes supplémentaires. Amusez-vous bien à discuter en temps réel grâce au chat en React !
 
-### Contact
+## Contact
 Pour toute question, suggestion ou retour d'expérience concernant le projet "Chat en React", n'hésitez pas à me contacter :
 
 Auteurs: Lucas Marie-Anne, Louisa
-
 Site Web: http://lucasmarieanne.com/
 
 Je serai ravi d'échanger avec vous et de recevoir vos commentaires sur ce projet. Merci de votre intérêt et de votre contribution !
